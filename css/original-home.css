@@ -1,0 +1,149 @@
+
+/* 이 화면 전용 — 공통 규칙은 careshare.css 에 있다 */
+.hero{
+    background:linear-gradient(135deg,#eefaf7 0%,#f8fcfb 58%,#f1f7f6 100%);
+    border-bottom:1px solid #edf3f1;
+  }
+.hero-inner{
+    width:1200px;
+    margin:0 auto;
+    min-height:410px;
+    display:flex;
+    align-items:center;
+    position:relative;
+    overflow:hidden;
+  }
+.hero-copy{width:610px;padding:55px 0 60px}
+.eyebrow{
+    display:inline-flex;align-items:center;gap:7px;
+    padding:7px 12px;border-radius:20px;
+    background:#dff5f0;color:#2d9788;font-size:12px;font-weight:700;
+    margin-bottom:18px;
+  }
+.hero h1{
+    margin:0;
+    font-size:40px;line-height:1.28;letter-spacing:-.045em;
+    font-weight:800;color:#263b37;
+  }
+.hero h1 span,.hero h1 b{color:var(--mint-dark)}
+.hero p{
+    margin:17px 0 28px;color:#6b7b77;font-size:16px;line-height:1.7;
+  }
+.search-icon{font-size:20px;color:#7c8b88;margin-right:12px}
+.hero-visual{
+    position:absolute;right:10px;bottom:0;width:470px;height:340px;
+  }
+.blob{
+    position:absolute;right:18px;bottom:12px;width:390px;height:290px;
+    background:#d8f2ed;border-radius:55% 45% 42% 58%/48% 50% 50% 52%;
+    transform:rotate(-6deg);
+  }
+.visual-card{
+    position:absolute;background:#fff;border:1px solid #e2eeeb;
+    box-shadow:var(--shadow);border-radius:16px;padding:18px;
+  }
+.visual-main{right:35px;bottom:35px;width:295px}
+.visual-mini{left:35px;top:62px;width:165px}
+.vc-title{font-size:13px;font-weight:800;margin-bottom:13px}
+.person{display:flex;align-items:center;gap:12px}
+.avatar{width:43px;height:43px;border-radius:50%;background:#dff5f0;display:grid;place-items:center;font-size:20px}
+img.avatar{object-fit:cover}   /* 사진일 때 비율이 틀어지지 않게 잘라서 채운다 */
+.person b{font-size:13px}
+.person small{display:block;color:#8a9694;margin-top:4px}
+.stars{color:#e5b52f;font-size:12px;margin-top:10px}
+.mini-line{height:8px;background:#edf3f1;border-radius:5px;margin:9px 0}
+.mini-line.short{width:70%}
+main{width:1200px;margin:0 auto;padding:48px 0 70px}
+.section{margin-bottom:48px}
+.shortcut-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.shortcut{
+    background:#fff;border:1px solid var(--line);border-radius:20px;
+    padding:28px 30px;display:flex;align-items:center;justify-content:space-between;
+    min-height:145px;box-shadow:0 5px 18px rgba(35,66,61,.035);
+    transition:.18s;
+  }
+.shortcut:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.shortcut .left{display:flex;gap:18px;align-items:center}
+.shortcut-icon{
+    width:64px;height:64px;border-radius:18px;display:grid;place-items:center;font-size:30px;
+  }
+.care .shortcut-icon{background:#e9f8f5}
+.share .shortcut-icon{background:#f5f1ff}
+.shortcut h3{margin:0 0 8px;font-size:18px}
+.shortcut p{margin:0;color:var(--sub);font-size:14px;line-height:1.55}
+.arrow{font-size:23px;color:#a2afac}
+.tags{
+    display:flex;flex-wrap:wrap;gap:10px;
+  }
+.tag{
+    border:1px solid #dce9e5;background:#fff;color:#536360;
+    border-radius:22px;padding:10px 16px;font-size:14px;
+  }
+.tag:hover{border-color:#9ed9cf;color:var(--mint-dark);background:var(--mint-soft)}
+.three-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.panel{
+    background:#fff;border:1px solid var(--line);border-radius:18px;
+    padding:22px;min-height:225px;
+  }
+.panel-label{font-size:12px;color:var(--mint-dark);font-weight:800;margin-bottom:9px}
+/* CARE 칸 머리 — 왼쪽 CARE, 오른쪽 요청서 고르기 */
+.panel#care{transition:opacity .15s}
+.care-head{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:9px}
+.care-head .panel-label{margin-bottom:0}
+/* 요청서 고르기 — 브라우저 기본 모양을 지우고 민트색 알약 모양으로. 화살표는 그림으로 그린다 */
+.care-req{-webkit-appearance:none;appearance:none;max-width:72%;height:30px;padding:0 30px 0 13px;
+  font-family:inherit;font-size:12px;font-weight:700;color:var(--mint-dark);
+  background:var(--mint-soft) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%232d9788' stroke-width='2.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 11px center / 12px 12px;
+  border:1px solid transparent;border-radius:999px;cursor:pointer;
+  white-space:nowrap;overflow:hidden;text-overflow:ellipsis;transition:border-color .15s, box-shadow .15s}
+.care-req:hover{border-color:#bfe4dc}
+.care-req:focus{outline:none;border-color:var(--mint);box-shadow:0 0 0 3px rgba(45,151,136,.15)}
+.care-req option{color:var(--text);font-weight:400;background:#fff}
+.care-more{display:inline-block;margin-top:14px;font-size:13px;font-weight:700;color:var(--mint-dark);text-decoration:none}
+.panel h3{font-size:17px;margin:0 0 18px}
+.profile{display:flex;align-items:center;gap:12px;margin-bottom:15px}
+.profile .avatar{width:46px;height:46px}
+.profile-text b{font-size:14px}
+.profile-text small{display:block;color:#8a9694;margin-top:4px}
+.rating{font-size:13px;color:#d7aa25}
+.info-row{display:flex;justify-content:space-between;border-top:1px solid #eef2f1;padding:10px 0 0;margin-top:9px;font-size:13px}
+.info-row span:first-child{color:#8a9694}
+.item-thumb{
+    height:105px;border-radius:13px;background:linear-gradient(145deg,#edf7f5,#f7f5ef);
+    display:grid;place-items:center;font-size:42px;margin-bottom:14px;
+  }
+.item-name{font-size:14px;font-weight:800}
+.item-meta{font-size:13px;color:#899592;margin-top:5px}
+.question{padding:11px 0;border-bottom:1px solid #edf1f0}
+.question:last-child{border-bottom:0}
+.question b{display:block;font-size:14px;margin-bottom:5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.question span{font-size:11px;color:#8b9895}
+.community-box{
+    background:#fff;border:1px solid var(--line);border-radius:20px;
+    padding:26px 28px;display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;
+  }
+.community-col{padding:0 25px;border-right:1px solid #edf1f0}
+.community-col:first-child{padding-left:0}
+.community-col:last-child{border-right:0;padding-right:0}
+.community-col h3{font-size:15px;margin:0 0 13px}
+.community-col p{font-size:13px;color:#8a9694;line-height:1.65;margin:0 0 13px}
+.text-link{font-size:13px;font-weight:700;color:var(--mint-dark)}
+body.logged-in .guest-only{display:none}
+body.logged-in .user-only{display:flex}
+.user-only .name{color:var(--text);font-weight:700}
+body.as-caregiver nav a.for-caregiver,
+  body.as-agency    nav a.for-agency,
+  body.as-admin     nav a.for-admin{display:inline-block}
+@media(max-width:1220px){
+    .header-inner,main,.hero-inner,.footer-inner{width:1100px}
+.hero-visual{right:-20px}
+.hero-copy{width:570px}
+.search{width:550px}
+}
+/* 위 @media 는 원래 닫는 괄호가 없었다. 닫지 않으면 아래 규칙이 좁은 화면에서만 적용된다. */
+.search-icon svg{display:block}
+.avatar svg,.shortcut-icon svg,.item-thumb svg{display:block}
+.notice-band{border-bottom:1px solid #9ed9cf;background:var(--mint-soft);color:var(--mint-dark)}
+.notice-band.warn{background:#fdf1ee;border-color:#f1cdc0;color:#a8512e}
+.notice-band div{width:1200px;margin:0 auto;padding:14px 0;font-size:14px;display:flex;gap:16px;align-items:center}
+.notice-band span{flex:1}

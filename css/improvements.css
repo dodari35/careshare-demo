@@ -1,0 +1,14 @@
+/* 원본 공통 CSS는 보존하고 화면 너비와 접근성만 보완합니다. */
+.page{min-width:0}.header-inner,.wrap,.page-head-inner,.footer-inner,.home-main,.hero-inner{width:min(1200px,calc(100% - 40px))}
+.product-thumb,.agency-icon,.shortcut-icon{background:#f2f5f4!important;border:1px solid #e1e7e5;flex-shrink:0}
+.hero-visual .avatar{background:#f2f5f4;border:1px solid #e1e7e5}
+.demo-bar{background:#edf7f4;border-bottom:1px solid var(--line);font-size:12px;padding:9px 20px;display:flex;gap:12px;align-items:center;justify-content:center;flex-wrap:wrap;color:#45665f}
+.demo-bar select{width:auto;height:30px;padding:3px 10px;font-size:12px}.demo-bar button{border:0;background:none;color:#345d52;text-decoration:underline;cursor:pointer;font:inherit}
+.skip-link{position:absolute;top:-60px;left:12px;z-index:1000;background:white;padding:12px}.skip-link:focus{top:8px}
+:focus-visible{outline:3px solid #317e72;outline-offset:3px}.empty-result{padding:28px;text-align:center;color:var(--sub);border:1px dashed var(--line);border-radius:12px}
+[hidden]{display:none!important}.detail-col,.form-col,.result-col,.my-main{min-width:0;flex:1}.section-head h2{margin-top:0}
+.tabs a,.pager a,.my-nav a{cursor:pointer}.table-scroll{width:100%;overflow-x:auto}.table-scroll table{min-width:600px}
+.local-records{padding:18px;background:var(--mint-soft);border-radius:14px}.local-records p{overflow-wrap:anywhere}
+@media(max-width:1200px){.header-inner{flex-wrap:wrap;height:auto;padding:14px 0;gap:12px}header{height:auto}nav{gap:20px}.logo{width:auto;margin-right:20px}.header-actions{gap:12px}.hero-copy{max-width:55%}}
+@media(max-width:900px){.hero-copy{max-width:none;width:100%}.hero-visual{display:none}.hero-inner{min-height:340px}.hero h1{font-size:32px}.hero-copy{padding:35px 0}.header-inner,.wrap,.page-head-inner,.footer-inner,.home-main,.hero-inner{width:calc(100% - 32px)}.header-actions{margin-left:0}.footer-inner{flex-wrap:wrap;height:auto;gap:16px;padding:24px 0}.community-col{border:0;padding:16px 0}.shortcut{padding:20px;min-height:125px}.shortcut .left{gap:12px}.shortcut-icon{width:48px;height:48px}.filter-box{display:grid}.my-nav{overflow:visible}.chat-wrap{width:calc(100% - 32px)}.msg p{max-width:80%}.list-search{flex-wrap:wrap}.list-search input{width:auto;min-width:0;flex:1}.form-layout .side-col{margin-top:18px}.hero .search{width:100%}.hero .search input{min-width:0}.chat-top{height:auto;padding:16px}.timeline{flex-wrap:wrap;gap:8px}}
+@media(max-width:900px){.shortcut-grid,.three-grid,.community-box,.product-grid{display:grid;grid-template-columns:minmax(0,1fr)}.shortcut .left{min-width:0}.shortcut h3{white-space:normal}.three-grid>.card{min-width:0}.hero .search input{width:0;flex:1}.community-col{border-right:0}.hero h1{font-size:30px}}

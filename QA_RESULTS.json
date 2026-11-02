@@ -1,0 +1,261 @@
+{
+  "html_pages": 42,
+  "relative_references": 306,
+  "missing": [],
+  "remaining_emoji": [],
+  "server_or_secret_pattern_files": [],
+  "inventory": [
+    {
+      "page": "index.html",
+      "original_exists": true,
+      "original_sections": 16,
+      "demo_sections": 13
+    },
+    {
+      "page": "totalSearch.html",
+      "original_exists": true,
+      "original_sections": 5,
+      "demo_sections": 5
+    },
+    {
+      "page": "admin\\index.html",
+      "original_exists": true,
+      "original_sections": 7,
+      "demo_sections": 1
+    },
+    {
+      "page": "alarm\\list.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 1
+    },
+    {
+      "page": "care\\caregiverList.html",
+      "original_exists": true,
+      "original_sections": 2,
+      "demo_sections": 1
+    },
+    {
+      "page": "care\\caregiverMypage.html",
+      "original_exists": true,
+      "original_sections": 3,
+      "demo_sections": 1
+    },
+    {
+      "page": "care\\caregiverProfile.html",
+      "original_exists": true,
+      "original_sections": 9,
+      "demo_sections": 5
+    },
+    {
+      "page": "care\\chat.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 0
+    },
+    {
+      "page": "care\\chatDock.html",
+      "original_exists": true,
+      "original_sections": 0,
+      "demo_sections": 1
+    },
+    {
+      "page": "care\\chatList.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 1
+    },
+    {
+      "page": "care\\chatStart.html",
+      "original_exists": true,
+      "original_sections": 0,
+      "demo_sections": 2
+    },
+    {
+      "page": "care\\home.html",
+      "original_exists": true,
+      "original_sections": 7,
+      "demo_sections": 6
+    },
+    {
+      "page": "care\\jobPost.html",
+      "original_exists": true,
+      "original_sections": 7,
+      "demo_sections": 2
+    },
+    {
+      "page": "care\\matchDetail.html",
+      "original_exists": true,
+      "original_sections": 11,
+      "demo_sections": 4
+    },
+    {
+      "page": "care\\offer.html",
+      "original_exists": true,
+      "original_sections": 5,
+      "demo_sections": 2
+    },
+    {
+      "page": "care\\recommend.html",
+      "original_exists": true,
+      "original_sections": 5,
+      "demo_sections": 2
+    },
+    {
+      "page": "care\\requestForm.html",
+      "original_exists": true,
+      "original_sections": 9,
+      "demo_sections": 4
+    },
+    {
+      "page": "care\\requestList.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 4
+    },
+    {
+      "page": "care\\requestSend.html",
+      "original_exists": true,
+      "original_sections": 8,
+      "demo_sections": 2
+    },
+    {
+      "page": "community\\home.html",
+      "original_exists": true,
+      "original_sections": 8,
+      "demo_sections": 9
+    },
+    {
+      "page": "community\\list.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 1
+    },
+    {
+      "page": "community\\read.html",
+      "original_exists": true,
+      "original_sections": 6,
+      "demo_sections": 3
+    },
+    {
+      "page": "community\\report.html",
+      "original_exists": true,
+      "original_sections": 4,
+      "demo_sections": 2
+    },
+    {
+      "page": "community\\write.html",
+      "original_exists": true,
+      "original_sections": 8,
+      "demo_sections": 3
+    },
+    {
+      "page": "member\\agencyJoin.html",
+      "original_exists": true,
+      "original_sections": 7,
+      "demo_sections": 4
+    },
+    {
+      "page": "member\\caregiverJoin.html",
+      "original_exists": true,
+      "original_sections": 10,
+      "demo_sections": 4
+    },
+    {
+      "page": "member\\join.html",
+      "original_exists": true,
+      "original_sections": 8,
+      "demo_sections": 4
+    },
+    {
+      "page": "member\\leave.html",
+      "original_exists": true,
+      "original_sections": 2,
+      "demo_sections": 2
+    },
+    {
+      "page": "member\\login.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 1
+    },
+    {
+      "page": "member\\zipcode.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 1
+    },
+    {
+      "page": "mypage\\index.html",
+      "original_exists": true,
+      "original_sections": 10,
+      "demo_sections": 5
+    },
+    {
+      "page": "share\\agencyDetail.html",
+      "original_exists": true,
+      "original_sections": 9,
+      "demo_sections": 7
+    },
+    {
+      "page": "share\\dashboard.html",
+      "original_exists": true,
+      "original_sections": 4,
+      "demo_sections": 8
+    },
+    {
+      "page": "share\\extendForm.html",
+      "original_exists": true,
+      "original_sections": 3,
+      "demo_sections": 2
+    },
+    {
+      "page": "share\\itemForm.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 2
+    },
+    {
+      "page": "share\\itemList.html",
+      "original_exists": true,
+      "original_sections": 4,
+      "demo_sections": 1
+    },
+    {
+      "page": "share\\productForm.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 3
+    },
+    {
+      "page": "share\\qna.html",
+      "original_exists": true,
+      "original_sections": 3,
+      "demo_sections": 2
+    },
+    {
+      "page": "share\\qnaManage.html",
+      "original_exists": true,
+      "original_sections": 1,
+      "demo_sections": 2
+    },
+    {
+      "page": "share\\rentalForm.html",
+      "original_exists": true,
+      "original_sections": 7,
+      "demo_sections": 6
+    },
+    {
+      "page": "share\\rentalManage.html",
+      "original_exists": true,
+      "original_sections": 7,
+      "demo_sections": 1
+    },
+    {
+      "page": "share\\search.html",
+      "original_exists": true,
+      "original_sections": 8,
+      "demo_sections": 4
+    }
+  ]
+}
